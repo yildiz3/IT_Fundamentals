@@ -11,7 +11,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 <br/>
 
-- [Computer Fundamentals](./Computer-Fundamentals/README.md)
+- [Computer Fundamentals](./Computer-Fundamentals/)
 
     - [Computer Fundamentals Session Class-Notes](./Computer-Fundamentals/Class-Notes/)
 
