@@ -2,7 +2,7 @@
 
 - The Clarusway workshop repo is mainly for Students, and contains hands-on and projects without solutions.
 
-- This private workshop repository contains projects, hands-on training, coding challenges, and class-notes for the Clarusway Students of IT Fundamentals Cohort 009.
+- This private workshop repository contains projects, hands-on training, coding challenges, and class-notes for the Clarusway Students of IT Fundamentals Cohort 001.
 
 ## Description
 
@@ -17,7 +17,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Computer Fundamentals Projects](./computer-fundamentals/projects/README.md)
 
-    - [Computer Fundamentals Session Class-notes](./Computer-Fundamentals/Class-Notes/README.md)
+    - [Computer Fundamentals Session Class-Notes](./Computer-Fundamentals/Class-Notes/README.md)
 
 
 - [Computational Thinking](./computational-thinking/README.md)
