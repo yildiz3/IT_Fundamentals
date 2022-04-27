@@ -17,7 +17,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Computer Fundamentals Projects](./computer-fundamentals/projects/README.md)
 
-    - [Computer Fundamentals Session Class-Notes](./Computer-Fundamentals/Class-Notes/README.md)
+    - [Computer Fundamentals Session Class-Notes](./Computer-Fundamentals/Class-Notes/)
 
 
 - [Computational Thinking](./computational-thinking/README.md)
