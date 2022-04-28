@@ -16,13 +16,11 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [Computer Fundamentals Session Class-Notes](./Computer-Fundamentals/Class-Notes/)
 
 
-- [Computational Thinking](./computational-thinking/README.md)
+- [Computational Thinking](./Computational-Thinking/)
 
-    - [Computational Thinking Hands-on Trainings](./computational-thinking/hands-on/README.md)
+    - [Computational Thinking Hands-on Trainings](./Computational Thinking/hands-on/)
 
-    - [Computational Thinking Projects](./computational-thinking/projects/README.md)
-
-    - [Computational Thinking Session Class-notes](./computational-thinking/class-notes/README.md)
+    - [Computational Thinking Session Class-notes](./Computational Thinking/class-notes/)
     
 
 - [Programming with Python](./python/README.md)
