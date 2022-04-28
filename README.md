@@ -20,7 +20,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Computational Thinking Hands-on Trainings](./Computational Thinking/Hands-on/)
 
-    - [Computational Thinking Session Class-notes](./Computational Thinking/Class-notes/)
+    - [Computational Thinking Session Class-notes](./Computational Thinking/Class-Notes/)
     
 
 - [Programming with Python](./python/README.md)
