@@ -80,7 +80,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - [Agile](./Agile/)
 
-    - [Agile Session Class-notes](./Agile/Class-Notes)
+    - [Agile Session Class-notes](./Agile/Class_Notes)
 
 
 - [JIRA](./jira/README.md)
