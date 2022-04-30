@@ -78,9 +78,9 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [SDLC Session Class-notes](./sdlc/class-notes/README.md)
 
 
-- [Agile](./agile/README.md)
+- [Agile](./Agile/)
 
-    - [Agile Session Class-notes](./agile/class-notes/README.md)
+    - [Agile Session Class-notes](./Agile/class-notes)
 
 
 - [JIRA](./jira/README.md)
