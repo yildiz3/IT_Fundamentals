@@ -90,9 +90,9 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [JIRA Hands-on Trainings](./jira/hands-on/README.md)
     
 
-- [Teamwork Agendas of Learning Paths](./teamwork-agendas/README.md)
+- [Teamwork Agendas of Learning Paths](./Teamwork/)
 
-    - [ITF Learning Path Teamwork Agendas](./teamwork-agendas/itf-007/README.md)
+    - [ITF Learning Path Teamwork Agendas](./Teamwork)
 
 - [Sprint Evaluation](./sprint-evaluation/README.md)
 
