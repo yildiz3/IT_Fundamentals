@@ -92,7 +92,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - [Teamwork Agendas of Learning Paths](./Teamwork/)
 
-    - [ITF Learning Path Teamwork answer](./Teamwork/antwort)
+    - [ITF Learning Path Teamwork answer](./Teamwork/answer)
 
 - [Sprint Evaluation](./sprint-evaluation/README.md)
 
