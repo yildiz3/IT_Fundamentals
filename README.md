@@ -76,6 +76,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 - [SDLC](./SDLC%26DevOps)
 
     - [SDLC Session Class-notes](./SDLC%26DevOps/Class-Notes/)
+    - [SDLC Session Hands-on](./SDLC%26DevOps/Hands-on/)
 
 
 - [Agile](./Agile/)
