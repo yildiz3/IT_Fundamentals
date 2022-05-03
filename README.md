@@ -73,9 +73,9 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [SQL Session Class-notes](./sql/class-notes/README.md)
 
 
-- [SDLC](./sdlc/README.md)
+- [SDLC](./SDLC%26DevOps)
 
-    - [SDLC Session Class-notes](./sdlc/class-notes/README.md)
+    - [SDLC Session Class-notes](./SDLC%26DevOps/class-notes/)
 
 
 - [Agile](./Agile/)
