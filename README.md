@@ -84,7 +84,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [Agile Session Class-notes](./Agile/Class_Notes)
 
 
-- [JIRA](./Jira/)
+- [JIRA](./jira/)
     
 
 - [Teamwork Agendas of Learning Paths](./Teamwork/)
