@@ -83,6 +83,8 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 
 - [JIRA](./jira/)
+
+- [Network](./Network/)
     
 
 - [Teamwork Agendas of Learning Paths](./Teamwork/)
