@@ -1,0 +1,84 @@
+  188  git --version
+  189  git config --global user.name "marcus"
+  190  git config --global user.email "marcus@clarusway.com"
+  191  git config --global core.editor "nano"
+  192  git config --list
+  193  mkdir project
+  194  cd project/
+  195  mkdir first_project
+  196  cd first_project/
+  197  ll
+  198  git init
+  199  ll
+  200  ls -al
+  201  git status
+  202  ls -al
+  203  cd .git
+  204  tree
+  205  cd ..
+  206  ls -al
+  207  git help
+  208  git commit --help
+  209  git status
+  210  cd ..
+  211  git clone https://github.com/Musti4096/Shell_Scripting.git
+  212  cd Shell_Scripting/
+  213  tree
+  214  ls -al
+  215  cat 001_read_input_on_terminal.sh
+  216  cd ..
+  217  rm -rf Shell_Scripting/
+  218  ll
+  219  git clone https://github.com/Musti4096/Shell_Scripting.git
+  220  ll
+  221  cd Shell_Scripting/
+  222  ll
+  223  cd ..
+  224  ll
+  225  cd first_project/
+  226  ll
+  227  touch index.html
+  228  vim index.html
+  229  cat index.html
+  230  git status
+  231  vim index.html
+  232  ll
+  233  git add index.html
+  234  git status
+  235  vim index.html
+  236  ll
+  237  git status
+  238  git commit -m "index.html was created"
+  239  git log
+  240  git commit --ammend
+  241  git commit --amend
+  242  git log
+  243  touch index.js
+  244  git add index.js
+  245  git commit -m "index.js file was added"
+  246  vim index.html
+  247  git statu
+  248  git status
+  249  git commit -am "index.html file was updated"
+  250  git log
+  251  ll
+  252  git log
+  253  git checkout c8fe7
+  254  git log
+  255  ll
+  256  git checkout e21ef63797cf783fbbb27d2b854013b1943cceea
+  257  git status
+  258  git log
+  259  git checkout a7a548d78711d8371fcc496144ee7bcc94f80f92
+  260  git log
+  261  git checkout c8fe7df57070100c74cbadcded7b63d960519cd4
+  262  git checkout e21ef63797cf783fbbb27d2b854013b1943cceea
+  263  git status
+  264  ll
+  265  vim index.js
+  266  git statu
+  267  git status
+  268  git add .
+  269  git commit -m "index.js was updated"
+  270  git log
+  271  history
