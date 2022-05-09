@@ -49,7 +49,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
     
     - [Version Control with Git Hands-on Trainings](./Git/Hands-on/)
 
-    - [Version Control with Git Lab](./Git/Lab/README.md)
+    - [Version Control with Git Lab](./Git/Lab/)
 
     - [Version Control with Git Session Workshop](./Git/Workshop/)
 
