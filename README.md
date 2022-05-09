@@ -43,13 +43,15 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [Linux Session Class-notes](./linux/class-notes/README.md)
 
 
-- [Version Control with Git](./git/README.md)
+- [Version Control with Git](./Git/)
+    
+    - [Version Control with Git Session Class-notes](./Git/Class-Notes/)
+    
+    - [Version Control with Git Hands-on Trainings](./Git/Hands-on/)
 
-    - [Version Control with Git Hands-on Trainings](./git/hands-on/README.md)
+    - [Version Control with Git Lab](./Git/Lab/README.md)
 
-    - [Version Control with GitProjects](./git/projects/README.md)
-
-    - [Version Control with Git Session Class-notes](./git/class-notes/README.md)
+    - [Version Control with Git Session Workshop](./Git/Workshop/)
 
 - [HTML&CSS](./html-css/README.md)
 
