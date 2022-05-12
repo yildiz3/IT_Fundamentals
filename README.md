@@ -66,15 +66,15 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - [SQL](./SQL/)
 
-    - [SQL Assignments](./sql/Assignments/)
+    - [SQL Assignments](./SQL/Assignments/)
     
-    - [SQL Session Class-notes](./sql/Class-Notes.pdf/)
+    - [SQL Session Class-notes](./SQL/Class-Notes.pdf/)
     
-    - [SQL Hands-on Trainings](./sql/Hands-on/)
+    - [SQL Hands-on Trainings](./SQL/Hands-on/)
 
-    - [SQL Workshops](./sql/Workshops/)
+    - [SQL Workshops](./SQL/Workshops/)
 
-    - [SQL Session in_Class-Notes](./sql/in_Class-Notes/)
+    - [SQL Session in_Class-Notes](./SQL/in_Class-Notes/)
 
 
 - [SDLC](./SDLC%26DevOps)
