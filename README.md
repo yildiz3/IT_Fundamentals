@@ -64,15 +64,17 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [HTML&CSS Session Class-notes](./html-css/class-notes/README.md)
     
 
-- [SQL](./sql/README.md)
+- [SQL](./SQL/)
 
-    - [SQL Hands-on Trainings](./sql/hands-on/README.md)
+    - [SQL Assignments](./sql/Assignments/)
+    
+    - [SQL Session Class-notes](./sql/Class-Notes.pdf/)
+    
+    - [SQL Hands-on Trainings](./sql/Hands-on/)
 
-    - [SQL Projects](./sql/projects/README.md)
+    - [SQL Workshops](./sql/Workshops/)
 
-    - [SQL Coding Challenges](./sql/coding-challenges/README.md)
-
-    - [SQL Session Class-notes](./sql/class-notes/README.md)
+    - [SQL Session in_Class-Notes](./sql/in_Class-Notes/)
 
 
 - [SDLC](./SDLC%26DevOps)
