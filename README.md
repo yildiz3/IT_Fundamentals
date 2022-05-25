@@ -53,7 +53,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Version Control with Git Session Workshop](./Git/Workshop/)
 
-- [HTML&CSS](./html-css/README.md)
+- [HTML&CSS](./Html-CSS)
 
     - [HTML&CSS Hands-on Trainings](./html-css/hands-on/README.md)
 
