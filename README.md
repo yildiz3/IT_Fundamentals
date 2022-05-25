@@ -55,14 +55,17 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
 - [HTML&CSS](./Html-CSS)
 
-    - [HTML&CSS Hands-on Trainings](./html-css/hands-on/README.md)
+    - [HTML&CSS CSS](./Html-CSS/CSS)
+*
+    - [HTML&CSS Hands-on Trainings](./Html-CSS/Hands-on)
 
-    - [HTML&CSS Projects](./html-css/projects/README.md)
+    - [HTML&CSS Projects](./Html-CSS/Projects)
 
-    - [HTML&CSS Coding Challenges](./html-css/coding-challenges/README.md)
+    - [HTML&CSS Coding Challenges](./Html-CSS/Coding-Challenges)
 
-    - [HTML&CSS Session Class-notes](./html-css/class-notes/README.md)
+    - [HTML&CSS Session Class-notes](./Html-CSS/Class-Notes)
     
+    - [HTML&CSS Workshops](./Html-CSS/Workshops/)
 
 - [SQL](./SQL/)
 
