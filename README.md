@@ -61,8 +61,6 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [HTML&CSS Projects](./Html-CSS/Projects)
 
-    - [HTML&CSS Coding Challenges](./Html-CSS/Coding-Challenges)
-
     - [HTML&CSS Session Class-notes](./Html-CSS/Class-Notes)
     
     - [HTML&CSS Workshops](./Html-CSS/Workshops/)
