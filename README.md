@@ -40,7 +40,7 @@ The clarusway-workshop repository contains materials related to the IT trainings
 
     - [Linux Workshop](./Linux/workshop)
 
-    - [Linux Session Class-notes](./Linux/Class-notes)
+    - [Linux Session Class-notes](./Linux/Class-Notes)
 
 
 - [Version Control with Git](./Git/)
