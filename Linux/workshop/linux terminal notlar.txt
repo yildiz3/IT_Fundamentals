@@ -1,0 +1,67 @@
+$ isareti bilgisiyarda tam yetkiniz olmadigini gosterir (normal user)
+# isareti tam yetkili oldugumuzu gosterir (privilaged user)
+terminal’e cli (command line interface) denir
+graphical user interface (gui) ise arayuzdur
+pwd yazinca hangi klasorde oldugumuzu print ediyor
+ls ise klasorde hangi dosyalarimizin oldugunu cikti verir
+ls -l ise dosyalarimizi listeler
+~ isaretinin adi tilde’dir
+tilde ile dolar isareti arasi bir sey yaziyorsa o dosya icerisindeyizdir
+home’a donmek icin cd yazip enter’a basmaniz yeterli
+cd / ise bizi root directory’ye goturur, yani tum dosyalarimizin oldugu yere
+cd nin acilimi change directory’dir
+dosya olusturmak icin mkdir yazip dosya adini yazariz. acilimi make directory’dir
+ls -al ise klasorlarin altindaki gizli dosyalari da gosterir
+sleep yazip bir sayi yazinca uykuya alir terminali
+sleep’den ctrl + c ile uyandirilabiliyor
+klasor mavi, dosya ise beyaz ile sembolize edilir
+mkdir -v newfolder yazarsak, akabinde eger dosya acildiysa bilgi verir bize hemen. diger bir yontem ise sadece mkdir newfolder yazdiktan sonra enter’a basip sonrasinda ls yazip el yordamiyla dosyanin olusup olusmadigini gormektir
+touch ile dosya olusturulur klasor icindeyken
+rm -rf ile ici dolu klasorler silinebilir. bunu kullanirken hangi klasorde olduguna dikkat et. root’ta isen sistem dosyalarini silebilirsin
+tree komutu klasor ve dosyalarimizi gorsel sekilde dallandirir
+cp ile copy yapiyoruz sonra dosyaadi/klasoradi yapistiracaginizklasoradi/dosyaninyeniadi
+mv ile cut yapiyoruz sonra dosyaadi/klasoradi moveyapacaginizklasoradi/dosyaninyeniadi
+mv ile ayni dosyayi ayni klasore atip adini degistirirsek o dosyanin adi degisir. yani mv ile hem cut/paste hem de dosya adi degistirilebilir
+echo “birseyyazburaya” ile ayni python’daki gibi print yapabiliyoruz
+bir klasor icinde; echo “birseyyazburaya” > dosyaadi ile o dosya icine bir sey yazabiliyoruz
+ve bunu cat dosyaadi ile gorebiliriz yazilip yazilmadigini 
+fakat echo “birseyyazburaya” > dosyaadi ile baska bir sey yazasaniz sonrasinda yeni yazdiginiz gelir ve eskisi gider
+eski yazinin silinmemesi icin cift > kullanmak lazim yani echo “birseyyazburaya” >> dosyaadi 
+Linux’ta, Microsoft’un aksine, case sensitivity vardir, yani text ile Text iki ayri dosyadir.
+bir klasor icindeyken touch file{1..20}.txt ile 20 tane dosya acabiliriz
+f???6.* ile basi f ile baslayan ve sonu 6 ile biten bir dosyayi silebiliriz
+*19.* ile sadece 19 sayisini hatirladigimiz bir dosyayi silebiliriz
+
+hostname yazmak bilgisayar adini cikti verir, whoami ise username cikti verir
+hostname -i ise ip adresini cikti verir
+clear yazmak ya da ctrl + l kombinasyonunu kullanmak ekrani temizler
+ls ./birklasorismi -la komutu sadece birklasorismi klasorunun altindakileri verir
+cd ../a/b/c yaparsak once bir onceki klasore gider sonra a’ya girip b ve en son da c’ye girer
+cd ../../.. uc geri gelir
+cd / komutu root directory’ye gider
+mkdir -p a1/b1/c1/d1/e1 ile ic ice gecmis, a1’in en ustte oldugu ve e1’in en altta oldugu klasorler olusturur. buradaki p parent demektir
+ll komutu ise ls -al benzeri bir komuttur
+cat dosyadi komutu bize o dosyanin icinde ne yazdigini verir. cat > dosyadi yazip entera basarsan ve sonrasinda da bir seyler yazarsan o dosyanin icine onlari yazar. ctrl + c ile yazma islemini bitirmelisin
+eski yazilari silmeden yazi eklemek icin: cat >> dosyadi yazip entera basarsan ve sonrasinda bir seyler yazip bitince ctrl +c yaparsan o dosyanin icine yeni yazilanlari ekler
+rm -rf ve rm -R ayni komuttur
+Absolute path: root’dan itibaren directory gosterimi(/ isareti)
+Relative path: mevcut yere gore directory yazimi
+cp a/b/c/d.txt a/e/f/ ile c’deki d.txt dosyasini f’ye de kopyalariz. ve bu yontem Relative path’dir
+cp /user/username/g/a/b/c/d.txt /user/username/g/a/e/f/ ise Absolute path ile islem yapmaktir
+cp sonrasinda iki tarafin birini Relative birini ise Absolute yapsak da islemimiz olur. fakat yine de sadece Relative kullanmak cok daha kolaydir
+Relative ve Absolute’u mv komutu icin de kullanabiliyoruz, yani cp komutuna has bir sey degil
+head birdosyaadi komutu bir metnin ilk 10 satirini gosterirken tail birdosyaadi ise son 10 satiri gosterir. ya da head -12 birdosyaasi ile ilk 12 satiri gorebiliriz, hangi sayiyi yazarsak o kadarini cikti verir. bir sey yazmazsaniz da ilk 10 ciktisi verir, default 10’dur. bu komutlar, uzun metinler icin faydalidir. 
+less birdosyaadi komutu ise dosyanin bazi satirlarini gosterir, enter’a bastiginiz surece de yeni satirlari acar. bu sonlandiginda cikmak icin ctrl + z kombinsyonunu kullan
+mkdir -p {2001..2022}/folder{1..12} komutu 2001’den 2022’ye kadar klasor olusturup her birisinin icine de 12’ser tane klasor olusturur 1’den 12’ye kadar (folder1 folder2…)
+rm -rf ???? ile 2001’den 2022’ye kadar butun klasorlerimizi sileriz
+rm *1.txt ise sonunda 1 iceren her seyi siler. * yazmak ‘oraya ne gelirse gelsin’ demektir yani o kisimda ne yazdiginin onemi yoktur
+rm file??.txt ile file sonrasinda cift rakam olanlari silebiliriz. mesela file1 silinmezken file10 silinir
+. (tek nokta) bulundugumuz klasoru sembolize eder, ..(iki nokta) ise bir ust klasoru sembolize eder
+mv ./new*1.txt ../ komutu ile basi new ile baslayan ve sonu 1 ile biten mevcut directory’deki butun dosyalarimizi bir ust klasore tasiriz (cut/paste)
+touch file1 file2 .file3 dersek .file3 burada gizli dosya olur. yani ls yazarsak .file3 gozukmez. ls -al komutu ile gorulebilir fakat
+ayrica mv .file3 file3 yapsaydik .file3 gizli olmaktan cikip file3 olarak gozukecekti
+man ls yazarsak Linux bize ls komutunun manuel’ini, kullanim kilavuzunu gosterir
+info ls komutu ise cok daha detaylisidir
+bir de ls —help komutu vardir benzer olan
+history -c ile gecmis komut kaydini sileriz
+history > history.txt ile gecmisimizi bir text dosyasinin icine yazdirabiliriz. ayni sekilde pwd > pwd.txt ve ls - al > ls.txt ve tree > tree.txt de ise yarar komutlardir

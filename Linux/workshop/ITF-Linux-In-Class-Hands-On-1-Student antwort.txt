@@ -1,0 +1,285 @@
+   1  ls
+    2  pwd
+    3  ll
+    4  tree
+    5  sudo apt install tree
+    6  sudo apt update
+    7  sudo apt upgrade
+    8  sudo apt install tree
+    9  tree
+   10  ll
+   11  mkdir tes
+   12  ll
+   13  mkdir test
+   14  ll
+   15  cd test
+   16  ll
+   17  exit
+   18  ls
+   19  mkdir clarusway
+   20  cd clarusway/
+   21  mkdir lessons materials
+   22  ls
+   23  cd lessons/
+   24  touch linux.txt
+   25  touch html.txt
+   26  ls
+   27  tre
+   28  tree
+   29  clear
+   30  tree
+   31  echo "I love Linux" > linux.txt
+   32  echo "I can create a Website" > html.txt
+   33  cat linux.txt
+   34  cat html.txt
+   35  cd ../..
+   36  tree
+   37  ├── html.txt
+   38  cd clarusway/materials/
+   39  touch lms.txt
+   40  touch try-it.txt
+   41  ls
+   42  echo "pre-class" > lms.txt
+   43  echo "post-class" > try-it.txt
+   44  cat lms.txt
+   45  cat try-it.txt
+   46  echo "Ben aslinda yoktum" > olmayan_dosyadim
+   47  ls
+   48  cat olmayan_dosyadim
+   49  cd ../..
+   50  rmdir tes test/
+   51  tree
+   52  pwd
+   53  ll
+   54  exit
+   55  ll
+   56  rm java.txt
+   57  ll
+   58  sudo rm java.txt
+   59  ll
+   60  ping google.com
+   61  ping -c 5 google.com
+   62  exit
+   63  pwd
+   64  whoami
+   65  hostname
+   66  hostname -i
+   67  ls
+   68  ls -l
+   69  ls -al
+   70  ls -a -l
+   71  ls -la
+   72  ll
+   73  cd Linux/
+   74  ll
+   75  cd
+   76  cd /
+   77  ll
+   78  cd
+   79  cd Linux/
+   80  ll
+   81  mkdir folder1 folder2 folder3
+   82  ll
+   83  mkdir -pv a/b/c/d
+   84  tree
+   85  ll
+   86  rmdir folder1
+   87  ll
+   88  rmdir a
+   89  rm -rf a
+   90  ll
+   91  touch file1 file2 file3
+   92  ll
+   93  echo "test" > file1
+   94  cat file1
+   95  echo "second line" >> file1
+   96  cat file1
+   97  echo "file4" > file4
+   98  ll
+   99  cat file4
+  100  cat > file5
+  101  cat file5
+  102  cat >> file5
+  103  cat file5
+  104  cat > file5
+  105  cat file5
+  106  rm file5
+  107  ll
+  108  mkdir countires
+  109  cd countries
+  110  cd countires/
+  111  mkdir Germany Turkey Italy
+  112  cd ..
+  113  ll
+  114  tree
+  115  cp ./file1  ./countires/Germany/
+  116  tree
+  117  cp /home/ubuntu/Linux/file2 /home/ubuntu/Linux/countires/Turkey/
+  118  tree
+  119  mv ./file3 ./countires/Italy/
+  120  tree
+  121  echo "line1" > file1
+  122  cat file1
+  123  cat > istiklal.txt
+  124  cat istiklal.txt
+  125  head istiklal.txt
+  126  tail istiklal.txt
+  127  head -c 5 istiklal.txt
+  128  head -5 istiklal.txt
+  129  tail -7 istiklal.txt
+  130  more istiklal.txt
+  131  touch file{1..10}.txt
+  132  ll
+  133  rm file1?.txt
+  134  ll
+  135  cp *.txt ./countires/Turkey/
+  136  tree
+  137  echo "test" >>  fil*
+  138  ll
+  139  touch .gizli
+  140  ll
+  141  ls -l
+  142  man ls
+  143  info ls
+  144  ls --help
+  145  sed --help
+  146  cd /
+  147  ls
+  148  ls /bin
+  149  ls /sbin
+  150  ll
+  151  cd
+  152  mkdir exercise
+  153  cd exercise/
+  154  ll
+  155  touch cas.txt
+  156  ll
+  157  chmod u=rwx,g=-,o=- cas.txt
+  158  ll
+  159  touch html.txt
+  160  ll
+  161  chmod 070 html.txt
+  162  ll
+  163  touch java.txt
+  164  l
+  165  ll
+  166  chmod 007 java.txt
+  167  ll
+  168  touch js.js
+  169  chmod 777 js.js
+  170  ll
+  171  chmod u-x,g-w,o-r js.js
+  172  ll
+  173  chmod u+x,g+w,o+r js.js
+  174  ll
+  175  touch k.txt
+  176  ll
+  177  chmod 761 k.txt
+  178  ll
+  179  touch l.txt
+  180  ll
+  181  chmod 444 l.txt
+  182  ll
+  183  sudo su
+  184  ext
+  185  exit
+  186  sudo apt install tree
+  187  sudo apt update -y && sudo apt upgrade -y
+  188  ll
+  189  rm -rf exercise/
+  190  rm -rf a
+  191  rm -rf Linux/
+  192  ll
+  193  rm -rf clarusway/
+  194  ll
+  195  vim test.txt
+  196  cat test.txt
+  197  vim test.py
+  198  cat test.py
+  199  vim index.html
+  200  cat index.html
+  201  sudo apt install vim
+  202  vim index.html
+  203  vi index.html
+  204  nano index.html
+  205  cat index.html
+  206  nano index.html
+  207  ll
+  208  nano index.html
+  209  ll
+  210  cat test.py
+  211  nano index.html
+  212  pwd
+  213  mkdir CLARUSMOTORS && cd CLARUSMOTORS
+  214  ls -al
+  215  ll
+  216  cd
+  217  ll
+  218  nano .bashrc
+  219  alias update="sudo apt update -y && sudo apt upgrade -y"
+  220  update
+  221  ll
+  222  cd CLARUSMOTORS/
+  223  ll
+  224  mkdir GROUND SEA AIR
+  225  ll
+  226  tree
+  227  cd GROUND/
+  228  ll
+  229  mkdir Highway Railway
+  230  tree ../../
+  231  cd ../SEA/
+  232  ll
+  233  pwd
+  234  tree ../..
+  235  cd ../AIR/ && ll
+  236  cd ../GROUND/Highway/
+  237  ll
+  238  touch car motorbike bicycle
+  239  ll
+  240  echo "GROUND_vehicle 2.0 TDI" > car
+  241  echo "GROUND_vehicle 0.9 SI" > motorbike
+  242  echo "GROUND_vehicle feet" > bicycle
+  243  cat car
+  244  cat motorbike
+  245  cat bicycle
+  246  touch amphibicar
+  247  vi amphibicar
+  248  chmod 660 amphibicar
+  249  ll
+  250  touch clarusvehicle
+  251  nano clarusvehicle
+  252  nano amphibicar
+  253  chmod 640 clarusvehicle
+  254  ll
+  255  tree ../../
+  256  cd ../Railway/ && ll
+  257  touch bullet_train electric_train steam_train
+  258  ll
+  259  echo "GROUND_vehicle Electric" > bullet_train
+  260  echo "GROUND_vehicle Electric" > electric_train
+  261  echo "GROUND_vehicle Steam" > steam_train
+  262  tree ../../
+  263  cd ../../SEA/
+  264  ll
+  265  echo "SEA_vehicle-4250 HP" ship
+  266  echo "SEA_vehicle-4250 HP" > ship
+  267  ll
+  268  echo "SEA_AIR_vehicle-600 HP" > seaplane
+  269  ll
+  270  tree ../../
+  271  cp ../GROUND/Highway/amphibicar .
+  272  cp ../GROUND/Highway/clarusvehicle .
+  273  tree ../../
+  274  cd ../AIR/ && ll && touch plane helicopter
+  275  ll
+  276  echo "AIR_vehicle 2000 HP" > plane
+  277  echo "AIR_vehicle 1800 HP" > helicopter
+  278  ll
+  279  tree ../../
+  280  cp ../SEA/clarusvehicle .
+  281  cp ../SEA/seaplane .
+  282  tree ../../
+  283  cd ..
+  284  tree
+  285  history

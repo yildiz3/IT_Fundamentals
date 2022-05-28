@@ -1,0 +1,21 @@
+büyük x sola X doğru siler
+küçük x sağa x doğru siler
+u ile silineni geri alıyoruz
+ctrl + r yapılan işlemleri tek tek gösterir
+yy ile satırı kopyalar
+p ile yapıştırır
+dd satırı siler
+d ye basılı tutunca hızlıca silme işlemi yapıyor
+u ya basılı tutunca hızlıca silenleri geri alıyor
+büyük G dosyanın sonuna götürür (klavyedeki end'in işlevi)
+küçük gg dosyanın başına getirir (klavyedeki home'in işlevi)
+escape + :wq or escape + ZZ save edip kapatır
+-
+vim e giriş
+1.Vim dosyaadı (bazı işletim sistemlerinde Vi dosyaadı
+2. i (i tuşu ile inster moda giriyoruz)
+3.Yazma işlemini gerçekleştir
+4.esc (kod satırına eriş)
+5.:wq! (bazı işletim sistemlerinde :q!)
+6. cat dosyaadı ile oku
+hocanın verdiği dosya içeriği (thred olarak yazacağım) (bearbeitet) 

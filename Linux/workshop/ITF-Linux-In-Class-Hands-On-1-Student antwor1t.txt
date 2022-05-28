@@ -1,0 +1,77 @@
+
+  212  pwd
+  213  mkdir CLARUSMOTORS && cd CLARUSMOTORS
+  214  ls -al
+  215  ll
+  216  cd
+  217  ll
+  218  nano .bashrc
+  219  alias update="sudo apt update -y && sudo apt upgrade -y"
+  220  update
+  221  ll
+  222  cd CLARUSMOTORS/
+  223  ll
+  224  mkdir GROUND SEA AIR
+  225  ll
+  226  tree
+  227  cd GROUND/
+  228  ll
+  229  mkdir Highway Railway
+  230  tree ../../
+  231  cd ../SEA/
+  232  ll
+  233  pwd
+  234  tree ../..
+  235  cd ../AIR/ && ll
+  236  cd ../GROUND/Highway/
+  237  ll
+  238  touch car motorbike bicycle
+  239  ll
+  240  echo "GROUND_vehicle 2.0 TDI" > car
+  241  echo "GROUND_vehicle 0.9 SI" > motorbike
+  242  echo "GROUND_vehicle feet" > bicycle
+  243  cat car
+  244  cat motorbike
+  245  cat bicycle
+  246  touch amphibicar
+  247  vi amphibicar
+  248  chmod 660 amphibicar
+  249  ll
+  250  touch clarusvehicle
+  251  nano clarusvehicle
+  252  nano amphibicar
+  253  chmod 640 clarusvehicle
+  254  ll
+  255  tree ../../
+  256  cd ../Railway/ && ll
+  257  touch bullet_train electric_train steam_train
+  258  ll
+  259  echo "GROUND_vehicle Electric" > bullet_train
+  260  echo "GROUND_vehicle Electric" > electric_train
+  261  echo "GROUND_vehicle Steam" > steam_train
+  262  tree ../../
+  263  cd ../../SEA/
+  264  ll
+  265  echo "SEA_vehicle-4250 HP" ship
+  266  echo "SEA_vehicle-4250 HP" > ship
+  267  ll
+  268  echo "SEA_AIR_vehicle-600 HP" > seaplane
+  269  ll
+  270  tree ../../
+  271  cp ../GROUND/Highway/amphibicar .
+  272  cp ../GROUND/Highway/clarusvehicle .
+  273  tree ../../
+  274  cd ../AIR/ && ll && touch plane helicopter
+  275  ll
+  276  echo "AIR_vehicle 2000 HP" > plane
+  277  echo "AIR_vehicle 1800 HP" > helicopter
+  278  ll
+  279  tree ../../
+  280  cp ../SEA/clarusvehicle .
+  281  cp ../SEA/seaplane .
+  282  tree ../../
+  283  cd ..
+  284  tree
+  285  history
+Ausblenden
+

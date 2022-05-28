@@ -1,0 +1,448 @@
+    1  pwd
+    2  tree
+    3  sudo apt install tree
+    4  tree
+    5  ls
+    6  mkdir a
+    7  ls
+    8  tre
+    9  sudo apt install tree
+   10  sudo apt update
+   11  sudo apt install tree
+   12  tree
+   13  pwd
+   14  whoami
+   15  cd ..
+   16  pwd
+   17  ls
+   18  cd ..
+   19  ls
+   20  cd home
+   21  cd serdar
+   22  cd hw
+   23  ls
+   24  explorer.exe .
+   25  ppwd
+   26  pwd
+   27  explorer.exe .
+   28  history
+   29  pwd
+   30  explorer.exe .
+   31  mkdir all_files
+   32  cd all_files/
+   33  mkdir lessons
+   34  mkdir lessons/SDLC lessons/HTML lessons/Linux
+   35  tree
+   36  mv lossons Lessons
+   37  mv ../all_files/lessons/ ../all_files/Lessons
+   38  tree
+   39  cd Lessons/
+   40  mkdir SDLC/DevOps SDLC/Waterfall
+   41  mkdir Linux/CLI Linux/GUI
+   42  mkdir Linux/CLI/Commands
+   43  tree
+   44  pwd
+   45  touch introduction.txt
+   46  touch SDLC/sdlc.txt SDLC/agile.txt
+   47  tree
+   48  touch HTML/html.txt HTML/cascades.css HTML/javascript.js
+   49  touch Linux/operatingsys.txt
+   50  touch SDLC/DevOps/dev.txt SDLC/DevOps/Ops.txt
+   51  tree
+   52  touch SDLC/Waterfall/phases.txt SDLC/Waterfall/advantages.txt
+   53  touch Linux/CLI/basics.txt Linux/CLI/advanced.txt
+   54  tree
+   55  touch Linux/GUI/ubuntu.txt Linux/GUI/debian.txt Linux/GUI/mint.txt
+   56  touch Linux/GUI/red_hat.txt
+   57  tree
+   58  cd Linux/CLI/Commands/
+   59  touch ls.txt ls_a.txt
+   60  tree
+   61  touch ls_l.txt ls_al.txt ls_c.txt ls_b.txt pwd.txt cd.txt cp.txt
+   62  tree
+   63  cd
+   64  tree
+   65  pwd
+   66  ls
+   67  cd all_files/
+   68  ls
+   69  cd Lessons/
+   70  tree
+   71  echo " In an essay, article, or book, an introduction (also known as a prolegomenon) is a"
+   72  beginning section which states the purpose and goals of the following writing. This is
+   73  generally followed by the body and conclusion.
+   74  ls
+   75  echo "In an essay, article, or book, an introduction (also known as a prolegomenon) is a
+   76  beginning section which states the purpose and goals of the following writing. This is
+   77  generally followed by the body and conclusion." > introduction.txt
+   78  cat introduction.txt 
+   79  tree
+   80  echo "Software Development Life Cycle (SDLC) is a process used by the software industry to
+   81  design, develop and test high quality softwares. The SDLC aims to produce a
+   82  high-quality software that meets or exceeds customer expectations, reaches
+   83  echo "Software Development Life Cycle (SDLC) is a process used by the software industry to
+   84  design, develop and test high quality softwares. The SDLC aims to produce a
+   85  high-quality software that meets or exceeds customer expectations, reaches
+   86  echo "Software Development Life Cycle (SDLC) is a process used by the software industry to design, develop and test high quality softwares. The SDLC aims to produce a high-quality software that meets or exceeds customer expectations, reaches completion within times and cost estimates." > SDLC/sdlc.txt
+   87  echo "HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page. HTML consists of a series of elements. HTML elements tell the browser how to display the content." > HTML/html.txt
+   88  tree
+   89  echo "An operating system (OS) is system software that manages computer hardware, software resources, and provides common services for computer programs" > Linux/operatingsys.txt 
+   90  cd Linux/CLI/Commands/
+   91  echo "ls command lists the current directory contents." > ls.txt
+   92  echo "pwd command shows the user’s current path." > pwd.txt
+   93  echo "cd [dir] command changes the current directory" > cd.txt
+   94  echo "cp command copies a file to another location" > cp.txt
+   95  tree
+   96  cd
+   97  tree
+   98  history
+   99  tree
+  100  cd all_files/Lessons/Linux/CLI/
+  101  cp Commands /home/hw/a
+  102  cp ../Commands /home/hw/a
+  103  cp ../CLI/Commands /home/hw/a
+  104  cp -r ../CLI/Commands /home/hw/a
+  105  cd
+  106  tree
+  107  cd all_files/Lessons/
+  108  cp -r SDLC /home/hw/a
+  109  tree
+  110  cd
+  111  tree
+  112  rm -r SDLC
+  113  pwd
+  114  rm -r all_files/Lessons/SDLC/ all_files/Lessons/Linux/CLI/Commands/
+  115  tree
+  116  history
+  117  cd
+  118  tree
+  119  cat /home/hw/a/Commands/cd.txt
+  120  history
+  121  sudo apt-get update
+  122  sudo apt-get install tree
+  123  tree
+  124  man ls
+  125  man ls > man_ls.txt
+  126  cat man_ls.txt 
+  127  pwd
+  128  explorer.exe .
+  129  mkdir serdar
+  130  mkdir Lessons
+  131  cd Lessons
+  132  cd ..
+  133  mkdir Lessons/SDLC Lessons/HTML Lessons/Linux
+  134  ls
+  135  tree
+  136  pwd
+  137  man cd
+  138  cd man
+  139  tree
+  140  cd Lessons/
+  141  man ls
+  142  pwd
+  143  man ls
+  144  info ls
+  145  history
+  146  pwd
+  147  history
+  148  tree
+  149  ls -l SDLC
+  150  ls -l Lessons/SDLC
+  151  ls -l a/Commands/cd.txt
+  152  chmod 777 cd.txt
+  153  chmod 777 a/Commands/cd.txt
+  154  ls -l a/Commands/cd.txt
+  155  ls
+  156  tree
+  157  ls
+  158  ls *.txt
+  159  cd serdar
+  160  ls
+  161  tree
+  162  PWD
+  163  pwd
+  164  mkdir desktop
+  165  ls
+  166  tree
+  167  explorer.exe .
+  168  cd desktop
+  169  mkdir clarusway
+  170  ls
+  171  ls -l
+  172  ls -al
+  173  touch test.txt
+  174  tree
+  175  ls
+  176  tree
+  177  echo "hello" > test.txt
+  178  cd ..
+  179  tree
+  180  clear
+  181  tree
+  182  echo "ahmet" > desktop/test.txt
+  183  echo "hello" >> desktop/test.txt
+  184  cd desktop
+  185  history
+  186  tree
+  187  echo "My name is Robert" >> test.txt
+  188  cat test.txt
+  189  cd ..
+  190  tree
+  191  cat serdar/desktop/test.txt 
+  192  cd serdar/desktop/
+  193  tree
+  194  echo "hello, this is second text file" > test1.txt
+  195  cat test1.txt
+  196  cat test.txt test1.txt
+  197  touch multiple{1..10}.txt
+  198  ls
+  199  tree
+  200  cd ..
+  201  tree
+  202  mkdir europe
+  203  touch lab.txt lab1.txt
+  204  explorer.exe .
+  205  cd ..
+  206  ls
+  207  touch serdar/test2.txt serdar/test3.txt
+  208  rm serdar/test2.txt serdar/test3.txt
+  209  cd serdar
+  210  echo "This is the second directories first file" > lab.txt
+  211  cat lab.txt
+  212  cp lab.txt newlab.txt
+  213  ls
+  214  tree
+  215  cat newlab.txt
+  216  ls *.txt
+  217  ls l*.txt
+  218  ls n*.txt
+  219  ls *.txt
+  220  ls
+  221  cp newlab.txt desktop/clarusway/
+  222  tree
+  223  cp m*{6..10}.txt europe
+  224  cp desktop/m*{6..10}.txt europe
+  225  tree
+  226  mv desktop/m*{1..3}.txt europe
+  227  tree
+  228  ls desktop/clarusway/
+  229  tree desktop/clarusway/
+  230  tree
+  231  mv desktop/clarusway/newlab.txt desktop/clarusway/linuxlab.txt
+  232  tree
+  233  mv desktop/clarusway/linuxlab.txt desktop/clarusway/linuxlab
+  234  tree
+  235  mkdir desktop/clarusway/linuxlab/a
+  236  cd desktop/clarusway/linuxlab
+  237  mv desktop/clarusway/linuxlab desktop/clarusway/linuxlab
+  238  ls desktop/clarusway/
+  239  mv desktop/clarusway/linuxlab desktop/clarusway/linuxlab.txt
+  240  cat desktop/clarusway/linuxlab.txt 
+  241  ls -al desktop/clarusway/
+  242  chmod 777 desktop/clarusway/linuxlab.txt
+  243  ls -al desktop/clarusway/
+  244  pwd
+  245  ls
+  246  cd home
+  247  ls
+  248  cd serdar
+  249  ls
+  250  tree
+  251  pwd
+  252  mkdir test
+  253  ls
+  254  md test
+  255  dir test
+  256  ls
+  257  dir test -v
+  258  dir mkdir
+  259  dir --help
+  260  dir
+  261  ls
+  262  touch test.py
+  263  ls
+  264  tree
+  265  sudo apt install vim
+  266  pwd
+  267  ls
+  268  cd serdar
+  269  ls
+  270  tree
+  271  ls
+  272  tree
+  273  ll
+  274  ls
+  275  vim test.txt
+  276  sudo apt-get install nano
+  277  ls
+  278  nano lab1.txt
+  279  cd bin
+  280  ls
+  281  cd /
+  282  cd bin
+  283  ls
+  284  ll
+  285  cd kill
+  286  cd kill*
+  287  cd mkdir*
+  288  cd /
+  289  ls
+  290  cd dev
+  291  ls
+  292  cd ..
+  293  ls
+  294  cd etc
+  295  ls
+  296  cd ..
+  297  ls
+  298  cd lib
+  299  ls
+  300  cd ..
+  301  ls
+  302  cd home
+  303  ls
+  304  cd hw
+  305  ls
+  306  cat lab.txt
+  307  cat > lab.txt
+  308  cat lab.txt
+  309  cat > lab.txt
+  310  cat lab.txt
+  311  cat >> lab.txt
+  312  cat lab.txt
+  313  ls
+  314  cd serdar
+  315  ls
+  316  man ls
+  317  man ls > ls.txt
+  318  cat ls.txt
+  319  cd
+  320  ls
+  321  cd serdar
+  322  info ls
+  323  ll
+  324  ll > ll.txt
+  325  cat ll.txt
+  326  ll --help
+  327  ll
+  328  l
+  329  touch cas.txt html.txt java.txt
+  330  ls
+  331  chmod u=rwx,g=-,o=- cas.txt
+  332  chmod u=-,g=rwx,o=- html.txt
+  333  chmod u=-,g=-,o=rwx java.txt
+  334  ll
+  335  ll cas.txt html.txt java.txt
+  336  ls
+  337  cd desktop
+  338  ls
+  339  cd Lessons/
+  340  tree
+  341  cd ABC_Collage/
+  342  cd Futsal/Futsal_Woman/
+  343  ls
+  344  ll
+  345  chmod 664 Isabella
+  346  ll
+  347  cd ../Futsal_Men/
+  348  touch Robert Martin James Liam Lucas
+  349  ls
+  350  echo "Futsal_Goalkeeper" > Robert
+  351  echo "Futsal_Defender" > Martin
+  352  echo "Futsal_Winger" > James
+  353  echo "Futsal_Winger" > Liam
+  354  echo "Futsal_Pivot" > Lucas
+  355  ls
+  356  ll
+  357  tree ../..
+  358  cd ../../Basketball/Basketball_Woman/
+  359  ls
+  360  touch Ava Evelyn Hazel Bella
+  361  ls
+  362  echo "Basketball_Point-Guard" > Ava
+  363  echo "Basketball_Shooting-Guard" > Evelyn
+  364  echo "Basketball_Center" > Hazel
+  365  echo "Basketball_Small-Forward" > Bella
+  366  ls
+  367  echo "Basketball_Power-Forward" >> ../../Futsal/Futsal_Woman/Olivia 
+  368  cat ../../Futsal/Futsal_Woman/Olivia 
+  369  cp ../../Futsal/Futsal_Woman/Olivia ../Basketball_Woman/ 
+  370  ls
+  371  ls -al
+  372  tree ~
+  373  cd ~/home/hw
+  374  ls ~
+  375  cd ~/Lessons/ABC_Collage/Basketball/Basketball_Men/
+  376  touch Logan Jack Joseph Matthew David
+  377* 
+  378  echo "Basketball_Shooting-Guard" > Jack
+  379  echo "Basketball_Center" > Joseph
+  380  echo "Basketball_Power-Forward" > Matthew
+  381  echo "Basketball_Small-Forward" > David
+  382  ll
+  383  chmod ugo=r David
+  384  ll
+  385  tree ../..
+  386  cd ../../Swimming/Swimming_Woman/Freestyle/
+  387  echo "Swimming_Freestyle > Scarlett
+ls
+  388  ls
+  389  echo "Swimming_Freestyle > Scarlett
+  390  cat Scarlett
+  391  ls
+  392  echo "Swimming_Freestyle" > Scarlett
+  393  ls
+  394  echo "Swimming_Freestyle" >> /home/hw/Lessons/ABC_Collage/Futsal/Futsal_Woman/Mia
+  395  cp /home/hw/Lessons/ABC_Collage/Futsal/Futsal_Woman/Mia /home/hw/Lessons/ABC_Collage/Swimming/Swimming_Woman/Freestyle/
+  396  cd ../Butterfly/
+  397  cat "Swimming_Butterfly" > Ellie
+  398  cat Swimming_Butterfly > Ellie
+  399  echo "Swimming_Butterfly" > Ellie
+  400  cd ~/Lessons/ABC_Collage
+  401  tree
+  402  cd Futsal/Futsal_Woman/
+  403  cat Mia
+  404  nano mia
+  405  nano Mia
+  406  cd ../Futsal_Men/
+  407  ls
+  408  ls *m* *M*
+  409  ls *m* *M* *a*
+  410  ls ../../Swimming/Swimming_Men/*y*
+  411  ls ../../Swimming/Swimming_Men/*B*
+  412  ls ../../Swimming/Swimming_Men/B*
+  413  ls ../../Swimming/Swimming_Men/
+  414  ls ../../Swimming/Swimming_Men/*f*
+  415  ls ../../Swimming/Swimming_Men/*y*
+  416  ls ../../Swimming/Swimming_Men/*e*
+  417  ls ../../Swimming/Swimming_Men/F*
+  418  tree ../..
+  419  tree ../../..
+  420  history
+  421  ls -al ../../..
+  422  ls -al ../../../..
+  423  ls
+  424  ll
+  425  chmod 777 Martin
+  426  ll
+  427  ls -al
+  428  chmod 007 James
+  429  ll
+  430  history
+  431  ls -al
+  432  cat Martin
+  433  chmod 001 Martin
+  434  ll
+  435  cat martin
+  436  cat Martin
+  437  echo "aa" > Martin
+  438  chmod 010 Martin
+  439  ll
+  440  echo "aa" > Martin
+  441  chmod 100 Martin
+  442  ll
+  443  echo "aa" > Martin
+  444  cat Martin
+  445  nano Martin
+  446  ll
+  447  history > history.txt
