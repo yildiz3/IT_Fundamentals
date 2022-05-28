@@ -34,13 +34,13 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [Programming with Python Session Class-notes](./python/class-notes/README.md)
     
 
-- [Linux](./linux/README.md)
+- [Linux](./Linux)
 
-    - [Linux Hands-on Trainings](./linux/hands-on/README.md)
+    - [Linux Hands-on Trainings](./Linux/Hands-on)
 
-    - [Linux Projects](./linux/projects/README.md)
+    - [Linux Workshop](./Linux/workshop)
 
-    - [Linux Session Class-notes](./linux/class-notes/README.md)
+    - [Linux Session Class-notes](./Linux/Class-notes)
 
 
 - [Version Control with Git](./Git/)
