@@ -23,17 +23,6 @@ The clarusway-workshop repository contains materials related to the IT trainings
     - [Computational Thinking Session Class-notes](./Computational-Thinking/Class-Notes/)
     
 
-- [Programming with Python](./python/README.md)
-
-    - [Programming with Python Hands-on Trainings](./python/hands-on/README.md)
-
-    - [Programming with Python Projects](./python/projects/README.md)
-
-    - [Programming with Python Coding Challenges](./python/coding-challenges/README.md)
-
-    - [Programming with Python Session Class-notes](./python/class-notes/README.md)
-    
-
 - [Linux](./Linux)
 
     - [Linux Hands-on Trainings](./Linux/Hands-on)
